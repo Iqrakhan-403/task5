@@ -1,0 +1,138 @@
+DATA ANALYST INTERNSHIP
+Task 5: Exploratory Data Analysis (EDA)
+Objective:
+
+Extract insights from the Titanic dataset using visual and statistical exploration.
+
+Tools:
+
+Python (Pandas, Matplotlib, Seaborn)
+
+1. Dataset Overview
+
+Dataset: Titanic Dataset ([Kaggle / Seaborn])
+
+Rows × Columns: 891 × 12
+
+Columns: PassengerId, Survived, Pclass, Name, Sex, Age, SibSp, Parch, Ticket, Fare, Cabin, Embarked
+
+Missing Values:
+
+Age: 177 missing
+
+Cabin: 687 missing
+
+Embarked: 2 missing
+
+2. Data Exploration
+a. Basic Exploration
+
+Used .info() to understand dataset structure.
+
+Used .describe() to get summary statistics for numerical features.
+
+Used .value_counts() to check categorical distributions (Sex, Pclass).
+
+3. Visual Analysis
+a. Univariate Analysis
+
+Age Distribution: Most passengers are aged 20–40.
+(Insert histogram of Age)
+
+Sex Distribution: Majority of passengers are male.
+(Insert bar chart of Sex)
+
+Passenger Class Distribution: Most passengers traveled in 3rd class.
+(Insert bar chart of Pclass)
+
+b. Bivariate Analysis
+
+Survival by Sex: Women have higher survival rates than men.
+(Insert grouped bar chart)
+
+Survival by Passenger Class: First-class passengers have better survival chances.
+(Insert grouped bar chart)
+
+Age vs Fare (Scatter Plot): Higher fare and younger passengers are more likely to survive.
+(Insert scatter plot)
+
+c. Multivariate Analysis
+
+Correlation Matrix & Heatmap:
+
+Survival positively correlates with Fare and negatively with Pclass.
+
+Weak correlation between Age, SibSp, and Parch.
+(Insert heatmap)
+
+4. Observations from Visuals
+
+Majority of passengers are male and in 3rd class.
+
+Women had higher survival probability.
+
+Higher-class passengers survived more frequently.
+
+Younger adults dominated the passenger age distribution.
+
+Fare is a strong factor associated with survival.
+
+5. Summary of Findings
+
+Passengers’ sex, class, age, and fare strongly influence survival.
+
+Women and higher-class passengers have higher survival chances.
+
+Younger adults were the most frequent group on the Titanic.
+
+Further analysis could explore family size (SibSp + Parch) as a survival factor.
+
+6. Interview Questions
+
+What is EDA and why is it important?
+
+EDA is the process of analyzing datasets to summarize their main characteristics using statistics and visualization. It helps identify patterns, anomalies, and relationships, which is crucial before modeling.
+
+Which plots do you use to check correlation?
+
+Heatmaps, scatterplots, pairplots.
+
+How do you handle skewed data?
+
+Apply transformations (log, sqrt, Box-Cox) or use robust statistical models.
+
+How to detect multicollinearity?
+
+Correlation matrix or Variance Inflation Factor (VIF).
+
+Univariate, bivariate, and multivariate analyses?
+
+Univariate: Single variable (e.g., histogram of Age)
+
+Bivariate: Two variables (e.g., Survival vs Sex)
+
+Multivariate: More than two variables (e.g., Age vs Fare vs Survival)
+
+Difference between heatmap and pairplot?
+
+Heatmap: Shows correlation strength between variables.
+
+Pairplot: Shows scatterplots for all variable pairs with distributions.
+
+How do you summarize your insights?
+
+Highlight key patterns, relationships, and anomalies supported by visuals and statistics.
+
+7. Tools & Methods Used
+
+Python: Pandas, Matplotlib, Seaborn
+
+Functions used: .info(), .describe(), .value_counts()
+
+Visualizations: histograms, bar charts, scatter plots, correlation heatmaps
+
+8. Task Outcome
+
+Gained practical skills in identifying patterns, trends, and anomalies.
+
+Prepared data-driven insights suitable for reporting or modeling.
